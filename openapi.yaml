@@ -1,0 +1,16 @@
+openapi: '3.0.2'
+info:
+  title: Akanksha's Art Gallery
+  version: '1.0'
+servers:
+  - url: https://akanksha.art.gallery.api/v1
+paths:
+  /home:
+    get:
+      responses:
+        '200':
+          description: Displays home page with a grid of all art peices.
+        '400':
+          description: Displays 404 Not Found Page
+        '500':
+          description: Error 
