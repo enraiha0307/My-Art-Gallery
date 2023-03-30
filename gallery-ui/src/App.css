@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&family=Open+Sans&display=swap');
+
+*,::after,::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+header ul li{
+font-size: 1.8rem;
+letter-spacing: 0.1rem;
+padding:1rem;
+color: #f4f4f4;
+font-weight: 600;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem;
+}
+
+.title .title-text{
+  color: #f4f4f4;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  font-family: "Open Sans","Playfair Display", Georgia, 'Times New Roman', Times, serif;
+}
+
+.gallery-grid-outer{
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+  column-gap: 25rem;
+  row-gap: 15rem;
+  margin-left: 15rem;
+  margin-right: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-image: url("./imgs/Group\ 85middlepage-wave.svg");
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+/* .gallery-grid-outer div{
+  align-items: center;
+  margin:1rem;
+  padding:1rem;
+  background-color: rgb(202, 67, 90);
+  height: 200px;
+  width: 150px;
+} */
+
+.gallery-grid-outer img{
+  align-items: center;
+  justify-content: center;
+  margin:1rem;
+  padding:0;
+  height: 25rem;
+  width: auto;
+}
