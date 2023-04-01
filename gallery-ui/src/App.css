@@ -53,14 +53,6 @@ body{
   background-repeat: repeat-y;
   background-size: contain;
 }
-/* .gallery-grid-outer div{
-  align-items: center;
-  margin:1rem;
-  padding:1rem;
-  background-color: rgb(202, 67, 90);
-  height: 200px;
-  width: 150px;
-} */
 
 .gallery-grid-outer img{
   align-items: center;
